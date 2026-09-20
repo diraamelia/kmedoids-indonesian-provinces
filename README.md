@@ -39,7 +39,7 @@ jupyter notebook notebooks/kmedoids_analysis.ipynb
 ```
 
 ## Hasil
-*(akan diisi setelah analisis selesai, ringkasan cluster, jumlah cluster optimal, dan interpretasi tiap cluster)*
+
 
 ## Lisensi
 MIT License
