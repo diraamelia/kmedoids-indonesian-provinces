@@ -39,7 +39,21 @@ jupyter notebook notebooks/kmedoids_analysis.ipynb
 ```
 
 ## Hasil
+Analisis K-Medoids menghasilkan **4 cluster optimal** (ditentukan melalui Elbow Method dan Silhouette Score), dengan **Silhouette Score sebesar 0.3745**.
 
+| Cluster | Kategori | Jumlah Provinsi | Rata-rata IPM | Contoh Provinsi |
+|---|---|---|---|---|
+| 3 | IPM Sangat Tinggi | 6 | 80.68 | DKI Jakarta, DI Yogyakarta, Kepulauan Riau, Bali |
+| 2 | IPM Tinggi | 19 | 75.32 | Jawa Barat, Jawa Timur, Riau, Sulawesi Selatan |
+| 0 | IPM Sedang | 11 | 71.87 | Papua, Maluku, Nusa Tenggara Timur |
+| 1 | IPM Rendah | 2 | 57.78 | Papua Tengah, Papua Pegunungan |
+
+**Temuan utama:**
+- Terdapat disparitas signifikan antara provinsi di Indonesia bagian barat/tengah dengan wilayah Papua, khususnya Papua Tengah dan Papua Pegunungan yang membentuk cluster tersendiri dengan capaian pembangunan manusia jauh di bawah provinsi lain.
+- Cluster IPM Tinggi (Cluster 2) merupakan cluster terbesar, mencakup mayoritas provinsi di Sumatera, Jawa, Kalimantan, dan Sulawesi — mencerminkan kondisi "rata-rata nasional".
+- Sumatera Barat menonjol sebagai satu-satunya provinsi luar Jawa-Bali yang masuk kategori IPM Sangat Tinggi, menarik untuk dikaji lebih lanjut.
+
+Detail lengkap analisis, visualisasi, dan interpretasi tiap cluster dapat dilihat di [`notebooks/kmedoids_analysis.ipynb`](notebooks/kmedoids_analysis.ipynb).
 
 ## Lisensi
 MIT License
