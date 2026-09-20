@@ -51,9 +51,7 @@ Analisis K-Medoids menghasilkan **4 cluster optimal** (ditentukan melalui Elbow 
 **Temuan utama:**
 - Terdapat disparitas signifikan antara provinsi di Indonesia bagian barat/tengah dengan wilayah Papua, khususnya Papua Tengah dan Papua Pegunungan yang membentuk cluster tersendiri dengan capaian pembangunan manusia jauh di bawah provinsi lain.
 - Cluster IPM Tinggi (Cluster 2) merupakan cluster terbesar, mencakup mayoritas provinsi di Sumatera, Jawa, Kalimantan, dan Sulawesi mencerminkan kondisi "rata-rata nasional".
-- Sumatera Barat menonjol sebagai satu-satunya provinsi luar Jawa-Bali yang masuk kategori IPM Sangat Tinggi, menarik untuk dikaji lebih lanjut.
-
-Detail lengkap analisis, visualisasi, dan interpretasi tiap cluster dapat dilihat di [`notebooks/kmedoids_analysis.ipynb`](notebooks/kmedoids_analysis.ipynb).
+- Sumatera Barat menonjol sebagai satu-satunya provinsi luar Jawa-Bali yang masuk kategori IPM Sangat Tinggi, menarik untuk dikaji lebih lanjut. 
 
 ## Lisensi
 MIT License
