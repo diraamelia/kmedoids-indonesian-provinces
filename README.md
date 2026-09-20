@@ -28,7 +28,7 @@ Variabel yang digunakan:
 3. Penentuan jumlah cluster optimal (Elbow Method & Silhouette Score)
 4. Clustering menggunakan K-Medoids (PAM)
 5. Evaluasi hasil cluster
-
+6. Visualisasi & interpretasi
 
 ## Cara Menjalankan
 ```bash
@@ -45,7 +45,4 @@ jupyter notebook notebooks/kmedoids_analysis.ipynb
 MIT License
 
 ## Author
-Dira Amelia Ramma
-7. Visualisasi & interpretasi
-
-## 📁 Struktur Proyek
+Dira Amelia Ramma'
